@@ -76,22 +76,78 @@ border: 1px solid #1d2a5b;
     height: 20px;
     width: 50px;
 }
-.form
+.formu
 {
-    width: 992px;
+    width: 1000px;
     margin: 0 auto;
     clear: both;
+    padding-left:0cm; 
 }
 
 .foto{
-margin-top: 60px;
+    margin-top: 20px;
     float: left;
     width: 50%;
-    color: #0e385f;
-font-size: 20px;
+ color: #0e385f;
+font-size: 30px;
 font-weight: bold;
 }
-   
+.formulario
+{
+    float: right;
+    width: 50%;
+    
+}
+form{
+    float: right;
+}
+h1 {
+    padding-left: 120px;}
+h1, h3
+{
+    float: left;
+    
+}
 
+.data p{
+    float: left;
+    margin-top: 10px;
+}
+.data input[type="text"]
+{
+margin-bottom: 15px;
+border-radius: 5px;
+padding: 10px;
+font-size: 16px;
+border: 1px solid #bdc7d8; 
+}
+.data input[type="password"]
+{
+margin-bottom: 15px;
+border-radius: 5px;
+font-size: 16px;
+padding: 10px;
 
+}
 
+.data a 
+{
+    text-decoration: none;
+    color: #3677bc;
+}
+.data input[type="radio"]
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.data input[type="submit"]
+{
+padding: 15px 22px;
+background:linear-gradient( #95d67c,#65a953);
+border: 1px solid #3b6e22;
+border-radius: 5px;
+font-size: 25px;
+color :#fff;
+margin-top:15px;
+margin-bottom:15px ;}
